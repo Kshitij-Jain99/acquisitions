@@ -64,3 +64,6 @@
 {"level":"info","message":"User kain222@gmail.com created successfully","service":"acquisitions-api"}
 {"level":"info","message":"User registered successfully: kain222@gmail.com","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [11/Jan/2026:11:24:49 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 118 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"error","message":"Signin error Invalid credentials","service":"acquisitions-api","stack":"Error: Invalid credentials\n    at authenticateUser (file:///D:/MyProjects/acquisitions/src/services/auth.service.js:59:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async signin (file:///D:/MyProjects/acquisitions/src/controllers/auth.controller.js:57:22)"}
+{"level":"info","message":"::1 - - [22/Jan/2026:20:04:59 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 401 37 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [22/Jan/2026:20:05:58 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"HTTPie\"","service":"acquisitions-api"}
