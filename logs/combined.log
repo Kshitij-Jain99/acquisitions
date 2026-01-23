@@ -76,3 +76,13 @@
 {"level":"info","message":"::1 - - [23/Jan/2026:10:22:41 +0000] \"GET /health HTTP/1.1\" 429 96 \"-\" \"HTTPie\"","service":"acquisitions-api"}
 {"ip":"::1","level":"warn","limit":5,"message":"Rate limit exceeded","path":"/health","role":"guest","service":"acquisitions-api","userAgent":"HTTPie"}
 {"level":"info","message":"::1 - - [23/Jan/2026:10:22:42 +0000] \"GET /health HTTP/1.1\" 429 96 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [23/Jan/2026:11:42:39 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [23/Jan/2026:11:42:39 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [23/Jan/2026:11:43:08 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"error","message":"Error creating user: Error: User already exists","service":"acquisitions-api"}
+{"level":"error","message":"Signup error User already exists","service":"acquisitions-api","stack":"Error: User already exists\n    at createUser (file:///app/src/services/auth.service.js:33:44)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async signup (file:///app/src/controllers/auth.controller.js:21:22)"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [23/Jan/2026:11:45:02 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 409 32 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User contact@jssmastery.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: contact@jssmastery.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [23/Jan/2026:11:45:13 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 121 \"-\" \"HTTPie\"","service":"acquisitions-api"}
