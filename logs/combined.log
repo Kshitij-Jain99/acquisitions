@@ -67,3 +67,12 @@
 {"level":"error","message":"Signin error Invalid credentials","service":"acquisitions-api","stack":"Error: Invalid credentials\n    at authenticateUser (file:///D:/MyProjects/acquisitions/src/services/auth.service.js:59:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async signin (file:///D:/MyProjects/acquisitions/src/controllers/auth.controller.js:57:22)"}
 {"level":"info","message":"::1 - - [22/Jan/2026:20:04:59 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 401 37 \"-\" \"HTTPie\"","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [22/Jan/2026:20:05:58 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [23/Jan/2026:10:22:21 +0000] \"POST /health HTTP/1.1\" 404 146 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [23/Jan/2026:10:22:27 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [23/Jan/2026:10:22:39 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [23/Jan/2026:10:22:40 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [23/Jan/2026:10:22:41 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","limit":5,"message":"Rate limit exceeded","path":"/health","role":"guest","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [23/Jan/2026:10:22:41 +0000] \"GET /health HTTP/1.1\" 429 96 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","limit":5,"message":"Rate limit exceeded","path":"/health","role":"guest","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [23/Jan/2026:10:22:42 +0000] \"GET /health HTTP/1.1\" 429 96 \"-\" \"HTTPie\"","service":"acquisitions-api"}
